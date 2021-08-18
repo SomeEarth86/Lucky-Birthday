@@ -11,6 +11,9 @@ checkNumberBtn.addEventListener("click", function checkBdayLucky(){
         // console.log(dobNum,dobSum);
         checkLuckyFinal(dobSum,luckyNumber.value);
     }
+    else{
+        showMessage("Enter valid Details 😠😡👿")
+    }
 
 });
 
