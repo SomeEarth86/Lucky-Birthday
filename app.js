@@ -20,11 +20,11 @@ checkNumberBtn.addEventListener("click", function checkBdayLucky(){
 function checkLuckyFinal (dobSum,luckynum){
 
     if(dobSum % luckynum === 0){
-        showMessage(" YAAAS, You're Lucky 🥳🤩😎, Sheeeeessh 🥴👈")
-        console.log("Hellluuuu");
+        showMessage(" YAAAS, You're Lucky 🥳🤩😎, Sheeeeessh 🥴👈");
+
     }
     else{
-        showMessage(" Naah Dawg, You ain't lucky Bruh!!! 💀☠️")
+        showMessage(" Naah Dawg, You ain't lucky Bruh!!! 💀☠️");
     }
 }
 
