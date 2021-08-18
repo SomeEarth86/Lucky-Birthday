@@ -12,7 +12,7 @@ checkNumberBtn.addEventListener("click", function checkBdayLucky(){
         checkLuckyFinal(dobSum,luckyNumber.value);
     }
     else{
-        showMessage("Enter valid Details 😠😡👿")
+        showMessage("Enter valid Details 😠😡👿");
     }
 
 });
