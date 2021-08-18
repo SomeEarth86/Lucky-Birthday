@@ -1,0 +1,46 @@
+*{
+    background-color: #FFF3B0;
+    color: #540B0E;
+}
+
+body{
+    display: block;
+}
+
+
+.container{
+   display: block;
+   width: 300px;
+   margin: auto auto;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-top: 6rem;
+}
+
+ #date-of-birth, #lucky-num {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#check-btn{
+    display: block;
+    padding: 0.4rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#message{
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
