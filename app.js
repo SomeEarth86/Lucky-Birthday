@@ -12,7 +12,7 @@ checkNumberBtn.addEventListener("click", function checkBdayLucky(){
         checkLuckyFinal(dobSum,luckyNumber.value);
     }
     else{
-        showMessage("Aye Yooooo!! You Trippin Homie.?#$%???Enter Details Man, Stop Foolin Around 😠😡👿");
+        showMessage("Aye Yooooo!! You Trippin Homie.?#$%???Enter Details Fool, Stop Messin Around 😠😡👿");
     }
 
 });
