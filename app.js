@@ -5,7 +5,7 @@ const messageDisplay = document.querySelector("#message");
 
 checkNumberBtn.addEventListener("click", function checkBdayLucky(){
 
-    if(dateOfBirth.value && luckyNumber.value){
+    if(dateOfBirth.value && luckyNumber.value > 0){
         const dobNum = dobToNumberConversion(dateOfBirth.value);//it will get number as result from dob string
         const dobSum = getDobSum(dobNum);
         // console.log(dobNum,dobSum);
