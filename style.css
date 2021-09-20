@@ -71,3 +71,22 @@ details{
     margin-bottom: 1rem;
 }
 
+@media (max-width: 900px) {
+    body {
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .footer{
+        position: relative;
+    }
+
+    #check-btn{
+        margin-bottom: 1rem;
+    }
+
+    #message{
+        margin: 2rem 0rem;
+    }
+}
+  
